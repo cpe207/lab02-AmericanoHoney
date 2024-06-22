@@ -28,6 +28,7 @@ body{
 
 .header h1{
     color: rgba(255, 255, 255, 0.901);
+    font-size: 40px;
 }
 
 .navbar a {
@@ -58,6 +59,20 @@ body{
     text-align: center;
     margin-bottom: 40px;
  }
+
+ .detail h1{
+   font-size: 60px;
+}
+.detail h2{
+   color: rgb(70, 70, 70);
+   font-size: 40px;
+}
+
+.detail h4{
+   color: rgb(212, 211, 211);
+   font-size: 15px;
+}
+
  .skill {
     text-align: center;
     opacity: 70%;
@@ -86,6 +101,10 @@ body{
     margin-top: 100px;
     text-align: center;
  }
+
+ .myex h1{
+   font-size: 60px;
+}
  
  .wrapper{
     background-color: rgb(255, 255, 255);
@@ -107,15 +126,46 @@ body{
  }
 
 
- .wrapper textbox{
-    float: right;
+ .wrapper .textbox{
+   margin-left: auto;
+   margin-right: auto;  
  }
+
+ .wrapper2{
+   background-color: rgb(255, 255, 255);
+   opacity: 90%;
+   border-radius: 10px;
+   text-align: center;
+   padding: 20px;
+   width: 250px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   display: block;
+   justify-content: space-between;
+}
+
+.wrapper2 img{
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   /* float: left; */
+}
+
+
+.wrapper2 textbox{
+   /* float: auto; */
+}
 
  .contme{
     display: block;
     margin-top: 100px;
     text-align: center;
  }
+
+ .contme h1{
+   font-size: 60px;
+}
 
  .cont{
     background-color: rgb(255, 255, 255);
